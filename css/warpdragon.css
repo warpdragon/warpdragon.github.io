@@ -21,17 +21,17 @@ body {
 h2 {
 	font-size: 32px;
 	line-height: 44px;
-	padding: 10px 0;
+	padding: 8px 0;
 }
 
 h3 {
 	font-size: 22px;
 	line-height: 22px;
-	padding: 11px 0;
+	padding: 4px 0;
 }
 
 p {
-	padding-bottom: 12px;
+	padding-bottom: 9px;
 }
 
 /* Navigation */
@@ -64,7 +64,7 @@ nav li {
 	}
 
 		nav ul li a:hover {
-			color: #57B;
+		color: #57B;
 		}
 		
 /* Introduction */
@@ -74,7 +74,7 @@ nav li {
 	background: #663377 url("../png/intro.png") repeat-x;
 	background-size: 100%;
 	border-radius: 22px;
-	box-shadow: 3px 3px 3px #99aabb inset;
+	box-shadow: 3px 3px 3px #667788 inset;
 }
 
 #intro h2, #intro p {
