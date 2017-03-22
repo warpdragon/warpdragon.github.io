@@ -1,5 +1,10 @@
 /* Basic Setup */
 
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
 h2 {
 	font-size: 32px;
 	line-height: 44px;
@@ -73,24 +78,23 @@ p {
 
 /* FOOTER */
 footer {
-	position: absolute;
-	left: 0;
+    position: fixed;
+    min-height: 50px;
 	bottom: 0;
 	width: 100%;
 	background: #222;
+    color: #AAA;
 }
 
 	footer div {
-		display: table;
 		margin: 0 auto;
 		padding: 44px 0;
 		width: 940px;
 		color: #777;
 	}
 	
-		footer div section {
-			display: table-cell;
-			width: 300px;
+		footer section {
+            padding: 20px;
 		}
 		
 		footer div #about, footer div #blogroll {
