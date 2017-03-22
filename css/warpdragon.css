@@ -21,11 +21,11 @@ body {
 h2 {
 	font-size: 28px;
 	line-height: 44px;
-	padding: 12px 0;
+	padding: 10px 0;
 }
 
 h3 {
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 22px;
 	padding: 11px 0;
 }
@@ -55,7 +55,7 @@ nav li {
 		display: block;
 		margin-right: 20px;
 		width: 140px;
-		font-size: 14px;
+		font-size: 17px;
 		line-height: 44px;
 		text-align: center;
 		text-decoration: none;
@@ -65,22 +65,11 @@ nav li {
 		nav ul li a:hover {
 			color: #fff;
 		}
-
-		nav ul li.selected a {
-			color: #fff;
-		}
-
-		nav ul li.subscribe a {
-			margin-left: 22px;
-			padding-left: 33px;
-			text-align: left;
-			background: url("#") left center no-repeat;
-		}
-
+		
 /* Introduction */
 #intro {
 	margin-top: 12px;
-	padding: 22px;
+	padding: 16px;
 	background: #663377 url("../png/intro.png") repeat-x;
 	background-size: 100%;
 	border-radius: 22px;
@@ -109,6 +98,7 @@ nav li {
 	#mainContent {
 		display: table-cell;
 		width: 620px;
+		height: 520px;
 		padding-right: 22px;
 	}
 
@@ -117,6 +107,16 @@ nav li {
 .hyperLinks img {
 	margin: 22px 0;
 	box-shadow: 3px 3px 7px #432;
+}
+
+.hyperLinks a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.hyperLinks a:hover {
+	color: #ECC;
+	text-decoration: none;
 }
 
 /* FOOTER */
