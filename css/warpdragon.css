@@ -14,18 +14,18 @@ header, footer, aside, nav, article {
 body {
 	margin: 0 auto;
 	width: 940px;
-	font: 13px/22px Helvetica, Arial, sans-serif;
-	background: #AF7744;
+	font: 15px/24px Helvetica, Arial, sans-serif;
+	background: #FAFAFA;
 }
 
 h2 {
-	font-size: 28px;
+	font-size: 32px;
 	line-height: 44px;
 	padding: 10px 0;
 }
 
 h3 {
-	font-size: 20px;
+	font-size: 22px;
 	line-height: 22px;
 	padding: 11px 0;
 }
@@ -59,11 +59,11 @@ nav li {
 		line-height: 44px;
 		text-align: center;
 		text-decoration: none;
-		color: #AAA;
+		color: #000;
 	}
 
 		nav ul li a:hover {
-			color: #fff;
+			color: #57B;
 		}
 		
 /* Introduction */
@@ -82,12 +82,12 @@ nav li {
 #intro h2 {
 	padding: 0 0 2px 0;
 	font-weight: normal;
-	color: #fff;
+	color: #333;
 }
 
 #intro p {
 	padding: 0;
-	color: #eedddd;
+	color: #333;
 }
 
 /* Content Area and Sidebar */
@@ -106,16 +106,16 @@ nav li {
 
 .hyperLinks img {
 	margin: 22px 0;
-	box-shadow: 3px 3px 7px #432;
+	box-shadow: 3px 3px 7px #000;
 }
 
 .hyperLinks a {
-	color: #FFF;
+	color: #36A;
 	text-decoration: none;
 }
 
 .hyperLinks a:hover {
-	color: #ECC;
+	color: #222;
 	text-decoration: none;
 }
 
