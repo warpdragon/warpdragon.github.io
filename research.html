@@ -1,29 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="UTF-8">
-			<link rel="stylesheet" href="css/warpdragon.css" type="text/css">
-
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/warpdragon.css" type="text/css">
 		<title>Open Angel Arena Documentation Hub</title>
 	</head>
+
 	<body>
-		<nav>
-			<ul>
-				<li><a href="index.html">Project</a></li>
-				<li><a href="research.html">Resources</a></li>
-				<li><a href="tools.html">Tools</a></li>
-				<li><a href="media.html">Media</a></li>
-		</nav>
-		<section id="intro">
-			<header>
-				<h2>Open Angel Arena</h2>
-			</header>
-			<p>Documentation Hub</p>
-		</section>
-		<div id="content">`
-			<div id="mainContent">
-				<section>
-					<article class="hyperLinks">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Project</a></li>
+                        <li class="active"><a href="#">Resources</a></li>
+                        <li><a href="tools.html">Tools</a></li>
+                        <li><a href="media.html">Media</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container" style="margin-top: 50px">
+            <section id="intro" class="row">
+                <header class="">
+                    <h2>Open Angel Arena</h2>
+                </header>
+                <p>Documentation Hub</p>
+            </section>
+
+            <div class="row">
+                <section class="col-xs-12">
+                    <article class="hyperLinks">
 						<header>
 							<h3>Resources</h3>
 						</header>
@@ -48,13 +67,18 @@
 		</div>
 		<footer>
 			<div>
-				<section id="about">
-					<header>
+				<section id="about" class="row">
+					<header class="col-xs-12">
 						<h3>About</h3>
+						<p>I'm Warpdragon. I'm a person with a website!</p>
 					</header>
-					<p>I'm Warpdragon. I'm a person with a website!</p>
 				</section>
 			</div>
 		</footer>
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	</body>
 </html>

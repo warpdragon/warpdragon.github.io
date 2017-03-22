@@ -1,23 +1,5 @@
 /* Basic Setup */
 
-/* Makeshift CSS Reset */
-{
-	margin: 0;
-	padding: 0;
-}
-
-/* Tell the browser to render HTML 5 elements as block */
-header, footer, aside, nav, article {
-	display: block;
-}
-
-body {
-	margin: 0 auto;
-	width: 940px;
-	font: 15px/24px Helvetica, Arial, sans-serif;
-	background: #FAFAFA;
-}
-
 h2 {
 	font-size: 32px;
 	line-height: 44px;
@@ -34,44 +16,12 @@ p {
 	padding-bottom: 9px;
 }
 
-/* Navigation */
-nav {
-	position: absolute;
-	left: 0;
-	width: 100%;
-	background: url("../png/nav-background.png");
-	box-shadow: 3px 3px 3px #99aabb;
-}
-nav ul {
-	margin: 0 auto;
-	width: 940px;
-	list-style: none;
-}
 
-nav li {
-	float: left;
-}
-
-	nav ul li a {
-		display: block;
-		margin-right: 20px;
-		width: 140px;
-		font-size: 17px;
-		line-height: 44px;
-		text-align: center;
-		text-decoration: none;
-		color: #000;
-	}
-
-		nav ul li a:hover {
-		color: #57B;
-		}
-		
 /* Introduction */
 #intro {
 	margin-top: 12px;
 	padding: 16px;
-	background: #663377 url("../png/intro.png") repeat-x;
+	background: url("../png/intro.png");
 	background-size: 100%;
 	border-radius: 22px;
 	box-shadow: 3px 3px 3px #667788 inset;
@@ -96,13 +46,13 @@ nav li {
 #content {
 	display: table;
 }
-	
-	#mainContent {
-		display: table-cell;
-		width: 620px;
-		height: 520px;
-		padding-right: 22px;
-	}
+
+    #mainContent {
+        display: table-cell;
+        width: 620px;
+        height: 520px;
+        padding-right: 22px;
+    }
 
 /* Hyperlinks */
 
@@ -125,6 +75,7 @@ nav li {
 footer {
 	position: absolute;
 	left: 0;
+	bottom: 0;
 	width: 100%;
 	background: #222;
 }
