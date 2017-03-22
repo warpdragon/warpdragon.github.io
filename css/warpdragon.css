@@ -64,9 +64,9 @@ nav li {
 	}
 
 		nav ul li a:hover {
-		color: #57B;
+		    color: #57B;
 		}
-		
+
 /* Introduction */
 #intro {
 	margin-top: 12px;
@@ -96,13 +96,13 @@ nav li {
 #content {
 	display: table;
 }
-	
-	#mainContent {
-		display: table-cell;
-		width: 620px;
-		height: 520px;
-		padding-right: 22px;
-	}
+
+    #mainContent {
+        display: table-cell;
+        width: 620px;
+        height: 520px;
+        padding-right: 22px;
+    }
 
 /* Hyperlinks */
 
@@ -125,6 +125,7 @@ nav li {
 footer {
 	position: absolute;
 	left: 0;
+	bottom: 0;
 	width: 100%;
 	background: #222;
 }
