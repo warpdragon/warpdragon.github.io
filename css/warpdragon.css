@@ -17,6 +17,21 @@ h3 {
 	padding: 4px 0;
 }
 
+h4 {
+	font-size: 15px;
+	line-height: 4px;
+	padding: 0px 0px 0px 10px;
+	color: #79a;	
+}
+
+hr {
+	border-top: 1px solid #cde;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+}
+
+
 p {
 	padding-bottom: 9px;
 }
@@ -112,14 +127,4 @@ footer {
 		footer a:hover {
 			color: #FFF;
 			text-decoration: none;
-		}
-	
-	footer ul {
-		margin: 0 0 0 40px;
-		list-style: square;
-		color: #565656;
-	}
-	
-		footer ul li a {
-			display: block;
 		}
