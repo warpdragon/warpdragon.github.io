@@ -94,7 +94,7 @@ p {
 /* FOOTER */
 footer {
     position: fixed;
-    min-height: 50px;
+    min-height: 30px;
 	bottom: 0;
 	width: 100%;
 	background: #222;
@@ -103,13 +103,13 @@ footer {
 
 	footer div {
 		margin: 0 auto;
-		padding: 44px 0;
+		padding: 24px 0;
 		width: 940px;
 		color: #777;
 	}
 	
 		footer section {
-            padding: 20px;
+            padding: 10px;
 		}
 		
 		footer div #about, footer div #blogroll {
